@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/paper-kit-react/static/css/main.27071fe3.css",
+    "main.js": "/paper-kit-react/static/js/main.3c06b2a4.js",
+    "static/media/clouds.png": "/paper-kit-react/static/media/clouds.3c700c1313cc1cd3d3c5.png",
+    "static/media/Planet-sky-mountains-clouds_1920x1080_wallpaper.jpg": "/paper-kit-react/static/media/Planet-sky-mountains-clouds_1920x1080_wallpaper.9130ce242ce285d5170e.jpg",
+    "static/media/joshua-stannard.jpg": "/paper-kit-react/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
+    "static/media/soroush-karimi.jpg": "/paper-kit-react/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
+    "static/media/federico-beccari.jpg": "/paper-kit-react/static/media/federico-beccari.ab3a31e7758f490adca7.jpg",
+    "static/media/fog-low.png": "/paper-kit-react/static/media/fog-low.965eab52c95e117d1d45.png",
+    "static/media/profile-page.png": "/paper-kit-react/static/media/profile-page.3a626caf205d1143f192.png",
+    "static/media/landing-page.png": "/paper-kit-react/static/media/landing-page.80158096b63fb4a837e1.png",
+    "static/media/nucleo-icons.eot": "/paper-kit-react/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
+    "static/media/nucleo-icons.ttf": "/paper-kit-react/static/media/nucleo-icons.4466aeec3386b965a232.ttf",
+    "static/media/nucleo-icons.woff": "/paper-kit-react/static/media/nucleo-icons.8e954b749f951b654fc6.woff",
+    "static/media/nucleo-icons.woff2": "/paper-kit-react/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
+    "index.html": "/paper-kit-react/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.27071fe3.css",
+    "static/js/main.3c06b2a4.js"
+  ]
+}
