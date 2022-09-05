@@ -11,7 +11,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Redirect, Switch, HashRouter } from "react-router-dom";
 
 // styles
 import "bootstrap/scss/bootstrap.scss";
@@ -25,9 +25,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route path="/index" render={(props) => <Index {...props} />} />
       <Redirect to="/index" />
     </Switch>
+  </HashRouter>
   </BrowserRouter>
 );
