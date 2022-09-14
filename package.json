@@ -2,7 +2,7 @@
   "name": "paper-kit-react",
   "version": "1.3.0",
   "homepage": "https://jake0627a1.github.io/jakehong-nft",
-  "private":true,
+  "private": true,
   "dependencies": {
     "@nomiclabs/hardhat-etherscan": "^3.1.0",
     "@openzeppelin/contracts": "^4.7.3",
@@ -71,6 +71,7 @@
     "@types/node": "^18.7.14",
     "bootstrap": "^5.2.0",
     "chai": "^4.3.6",
+    "dotenv": "^16.0.2",
     "framer-motion": "^7.2.1",
     "gh-pages": "^4.0.0",
     "gulp": "4.0.2",
