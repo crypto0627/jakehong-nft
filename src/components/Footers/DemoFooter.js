@@ -57,8 +57,8 @@ function DemoFooter() {
           </nav>
           <div className="credits ml-auto">
             <span className="copyright">
-              © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Creative Tim
+              © {new Date().toLocaleString()}, Thanks for
+              <i className="fa fa-heart heart" /> React template
             </span>
           </div>
         </Row>
