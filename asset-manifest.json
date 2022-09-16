@@ -1,12 +1,9 @@
 {
   "files": {
     "main.css": "/jakehong-nft/static/css/main.449b705a.css",
-    "main.js": "/jakehong-nft/static/js/main.516cc87e.js",
+    "main.js": "/jakehong-nft/static/js/main.5c7f77cb.js",
     "static/media/clouds.png": "/jakehong-nft/static/media/clouds.3c700c1313cc1cd3d3c5.png",
     "static/media/Planet-sky-mountains-clouds_1920x1080_wallpaper.jpg": "/jakehong-nft/static/media/Planet-sky-mountains-clouds_1920x1080_wallpaper.9130ce242ce285d5170e.jpg",
-    "static/media/joshua-stannard.jpg": "/jakehong-nft/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
-    "static/media/soroush-karimi.jpg": "/jakehong-nft/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
-    "static/media/federico-beccari.jpg": "/jakehong-nft/static/media/federico-beccari.ab3a31e7758f490adca7.jpg",
     "static/media/fog-low.png": "/jakehong-nft/static/media/fog-low.965eab52c95e117d1d45.png",
     "static/media/profile-page.png": "/jakehong-nft/static/media/profile-page.3a626caf205d1143f192.png",
     "static/media/landing-page.png": "/jakehong-nft/static/media/landing-page.80158096b63fb4a837e1.png",
@@ -18,6 +15,6 @@
   },
   "entrypoints": [
     "static/css/main.449b705a.css",
-    "static/js/main.516cc87e.js"
+    "static/js/main.5c7f77cb.js"
   ]
 }
