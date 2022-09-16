@@ -45,9 +45,9 @@ function IndexHeader() {
         />
 
         <div className="category category-absolute">
-          <Button className="btn-round" href="/" target="_blank" outline>
+          <Button className="btn-round" href="#mint" outline>
             <i className="fa fa-cloud-upload " />
-            Connect
+            Mint
           </Button>
         </div>
       </div>

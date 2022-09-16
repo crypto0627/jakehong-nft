@@ -1,13 +1,30 @@
-# Sample Hardhat Project
+# Hardhat ERC-721 Mint Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+Start project:
 
 ```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+Download project or git clone
+npm i --save-dev --legacy-peer-deps
+npm start
 ```
+
+Must do these to deploy smart contract on network:
+
+```shell
+Change file hardhat.config.js
+Create new deploy js file in scripts file
+Create .env file
+REACT_APP_GOERLI_RPC_URL="YOUR MAINNET API URL"
+REACT_APP_ETHERSCAN_KEY="Your ETHERSCAN API KEY "
+REACT_APP_PRIVATE_KEY="YOUR WALLET PRIVATE KEY"
+```
+
+Contract deploy:
+```shell
+npx hardhat clean
+npx hardhat compile
+npx hardhat run ./scripts/yourdeploy.js --network mainnet
+npx hardhat verify --network mainnet contract_Address
+```
+
+You can see contract content on Etherscan!

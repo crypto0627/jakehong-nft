@@ -1,3 +1,4 @@
+//部屬腳本
 const hre = require("hardhat");
 
 async function main() {

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 
 // reactstrap components
 
@@ -9,8 +9,7 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
 
-import SectionCarousel from "views/index-sections/SectionCarousel.js";
-import SectionDark from "views/index-sections/SectionDark.js";
+import MainMint from "views/index-sections/MainMint.js";
 import SectionExamples from "views/index-sections/SectionExamples.js";
 
 
@@ -22,13 +21,16 @@ function Index() {
       document.body.classList.remove("index");
     };
   });
+  
+  const [accounts,setAccounts]=useState([])
+
+
   return (
     <>
-      <IndexNavbar />
+      <IndexNavbar accounts={accounts} setAccounts={setAccounts} />
       <IndexHeader />
       <div className="main">
-        <SectionCarousel />
-        <SectionDark />
+        <MainMint accounts={accounts} setAccounts={setAccounts}  />
         <SectionExamples />
         <DemoFooter />
       </div>
