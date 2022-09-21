@@ -20,7 +20,9 @@ const MainMint=({accounts,setAccounts}) => {
         signer
       );
         try{
-          const response = await contract.mint(BigNumber.from(mintAmount))
+          const response = await contract.mint(BigNumber.from(mintAmount),{
+            value: ethers.utils.parseEther((0.02 * mintAmount).toString()),
+          })
           console.log('response: ',response)
         }catch(error){
           console.log('error: ',error)
@@ -45,7 +47,7 @@ const MainMint=({accounts,setAccounts}) => {
           <div>
             <div>
               <button onClick={handleDecrement}>-</button>
-              <input type="number" value={mintAmount} onChange={event => setMintAmount(event.target.value)} />
+              <input readOnly type="number" value={mintAmount} onChange={event => setMintAmount(event.target.value)} />
               <button onClick={handleIncrement}>+</button>
             </div>
             <button onClick={handleMint}>Mint Now</button>
