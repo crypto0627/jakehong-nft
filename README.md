@@ -27,4 +27,4 @@ npx hardhat run ./scripts/yourdeploy.js --network mainnet
 npx hardhat verify --network mainnet contract_Address
 ```
 
-You can see contract content on Etherscan!
+go etherscan goerli testnet search your contract address and you can see contract content on Etherscan!
