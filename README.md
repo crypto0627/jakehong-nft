@@ -4,6 +4,7 @@ Start project:
 
 ```shell
 Download project or git clone
+npm init -y
 npm i --save-dev --legacy-peer-deps
 npm start
 ```
@@ -18,7 +19,6 @@ REACT_APP_GOERLI_RPC_URL="YOUR MAINNET API URL"<br/>
 REACT_APP_ETHERSCAN_KEY="Your ETHERSCAN API KEY "<br/>
 REACT_APP_PRIVATE_KEY="YOUR WALLET PRIVATE KEY"
 4.Copy artifacts\contracts\contractname.sol\contractname.json to web3.0 page
-
 
 Contract deploy:
 ```shell
