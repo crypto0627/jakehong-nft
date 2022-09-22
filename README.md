@@ -26,7 +26,7 @@ npx hardhat compile
 npx hardhat run ./scripts/yourdeploy.js --network mainnet
 npx hardhat verify --network mainnet contract_Address
 ```
-使用框架:
+使用框架:<br/>
 Reactjs:https://reactjs.org/ <br/>
 Hardhat:https://hardhat.org/
 
