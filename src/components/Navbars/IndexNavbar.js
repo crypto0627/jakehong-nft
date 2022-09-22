@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 import { ethers } from "ethers";
@@ -12,25 +12,24 @@ import {
   NavItem,
   NavLink,
   Nav,
-  Container
+  Container,
 } from "reactstrap";
-import {CoinbaseWalletSDK} from '@coinbase/wallet-sdk'
+import { CoinbaseWalletSDK } from "@coinbase/wallet-sdk";
 
-
-  //Web3Modal connect wallet
-  const providerOptions = {
-    /* See Provider Options Section */
-    coinbasewallet: {
-      package: CoinbaseWalletSDK,
-      options: {
-        appName: "JakeHongNFT APP",
-        alchemy:
-          "https://eth-goerli.g.alchemy.com/v2/hR5uamq-K43YZYAJldc7lpxZ2MOv0Qbk",
-      },
+//Web3Modal connect wallet
+const providerOptions = {
+  /* See Provider Options Section */
+  coinbasewallet: {
+    package: CoinbaseWalletSDK,
+    options: {
+      appName: "JakeHongNFT APP",
+      alchemy:
+        "https://eth-goerli.g.alchemy.com/v2/hR5uamq-K43YZYAJldc7lpxZ2MOv0Qbk",
     },
-  };
+  },
+};
 
-const IndexNavbar = ({accounts,setAccounts})=> {
+const IndexNavbar = ({ accounts, setAccounts }) => {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
 
@@ -60,7 +59,7 @@ const IndexNavbar = ({accounts,setAccounts})=> {
       window.removeEventListener("scroll", updateNavbarColor);
     };
   });
-/*
+  /*
   //ethereum js
   //display Wallet Address
   const [walletAddress, setWalletAddress] = useState("");
@@ -97,8 +96,8 @@ const IndexNavbar = ({accounts,setAccounts})=> {
       const web3ModalProvider = new ethers.providers.Web3Provider(
         web3ModalInstance
       );
-      if(web3ModalProvider){
-        setWeb3Provider(web3ModalProvider)
+      if (web3ModalProvider) {
+        setWeb3Provider(web3ModalProvider);
       }
       setAccounts(
         await window.ethereum.request({
@@ -188,6 +187,18 @@ const IndexNavbar = ({accounts,setAccounts})=> {
                 <p className="d-lg-none">Email</p>
               </NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink
+                as="a"
+                data-placement="bottom"
+                href="mailto:F111110111@nkust.edu.tw"
+                target="_blank"
+                title="View Contract"
+              >
+                <i className="fa fa-etsy" aria-hidden="true"></i>
+                <p className="d-lg-none">Etherscan</p>
+              </NavLink>
+            </NavItem>
             {/* Connect */}
             {web3Provider == null ? (
               <NavItem>
@@ -203,7 +214,10 @@ const IndexNavbar = ({accounts,setAccounts})=> {
             ) : (
               <NavItem>
                 <p id="walletaddress" style={{ color: "Chartreuse" }}>
-                  Connected! Wallet Address:{web3Provider.provider.selectedAddress}
+                  Connected!
+                  <br /> Wallet Address:
+                  <br />
+                  {web3Provider.provider.selectedAddress}
                 </p>
               </NavItem>
             )}
@@ -212,6 +226,6 @@ const IndexNavbar = ({accounts,setAccounts})=> {
       </Container>
     </Navbar>
   );
-}
+};
 
 export default IndexNavbar;

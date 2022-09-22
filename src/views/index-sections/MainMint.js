@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import {ethers,BigNumber} from 'ethers';
 import jakeHongNFT from './JakeHongNFT.json'
-
+//contract address
 const jakeHongNFTAddress = "0x88D7d7e740f355D959513dc10feBB61AAE7E75dc";
 
 

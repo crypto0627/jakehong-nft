@@ -8,6 +8,7 @@ npm i --save-dev --legacy-peer-deps
 npm start
 ```
 
+
 Must do these to deploy smart contract on network:
 
 ```shell
@@ -26,5 +27,11 @@ npx hardhat compile
 npx hardhat run ./scripts/yourdeploy.js --network mainnet
 npx hardhat verify --network mainnet contract_Address
 ```
+使用框架:
+Reactjs:https://reactjs.org/
+Hardhat:https://hardhat.org/
+
+API:https://www.alchemy.com/
+GOERLI FAUCET:https://goerlifaucet.com/
 
 go etherscan goerli testnet search your contract address and you can see contract content on Etherscan!
