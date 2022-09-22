@@ -17,7 +17,8 @@ Must do these to deploy smart contract on network:
 REACT_APP_GOERLI_RPC_URL="YOUR MAINNET API URL"<br/>
 REACT_APP_ETHERSCAN_KEY="Your ETHERSCAN API KEY "<br/>
 REACT_APP_PRIVATE_KEY="YOUR WALLET PRIVATE KEY"
-</p>
+4.Copy artifacts\contracts\contractname.sol\contractname.json to web3.0 page
+
 
 Contract deploy:
 ```shell
