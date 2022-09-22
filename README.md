@@ -10,15 +10,14 @@ npm start
 
 
 Must do these to deploy smart contract on network:
-
-```shell
+<p>
 Change file hardhat.config.js
-Create new deploy js file in scripts file
+Create new deploy js file on scripts file
 Create .env file
 REACT_APP_GOERLI_RPC_URL="YOUR MAINNET API URL"
 REACT_APP_ETHERSCAN_KEY="Your ETHERSCAN API KEY "
 REACT_APP_PRIVATE_KEY="YOUR WALLET PRIVATE KEY"
-```
+</p>
 
 Contract deploy:
 ```shell
@@ -28,10 +27,10 @@ npx hardhat run ./scripts/yourdeploy.js --network mainnet
 npx hardhat verify --network mainnet contract_Address
 ```
 使用框架:
-Reactjs:https://reactjs.org/
+Reactjs:https://reactjs.org/ <br/>
 Hardhat:https://hardhat.org/
 
-API:https://www.alchemy.com/
+API:https://www.alchemy.com/ <br/>
 GOERLI FAUCET:https://goerlifaucet.com/
 
 go etherscan goerli testnet search your contract address and you can see contract content on Etherscan!
