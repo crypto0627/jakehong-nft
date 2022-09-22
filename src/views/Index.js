@@ -10,7 +10,7 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 // index sections
 
 import MainMint from "views/index-sections/MainMint.js";
-import SectionExamples from "views/index-sections/SectionExamples.js";
+
 
 
 function Index() {
@@ -31,7 +31,6 @@ function Index() {
       <IndexHeader />
       <div className="main">
         <MainMint accounts={accounts} setAccounts={setAccounts}  />
-        <SectionExamples />
         <DemoFooter />
       </div>
     </>
