@@ -11,11 +11,11 @@ npm start
 
 Must do these to deploy smart contract on network:
 <p>
-Change file hardhat.config.js
-Create new deploy js file on scripts file
-Create .env file
-REACT_APP_GOERLI_RPC_URL="YOUR MAINNET API URL"
-REACT_APP_ETHERSCAN_KEY="Your ETHERSCAN API KEY "
+1.Change file hardhat.config.js<br/>
+2.Create new deploy js file on scripts file<br/>
+3.Create .env file<br/>
+REACT_APP_GOERLI_RPC_URL="YOUR MAINNET API URL"<br/>
+REACT_APP_ETHERSCAN_KEY="Your ETHERSCAN API KEY "<br/>
 REACT_APP_PRIVATE_KEY="YOUR WALLET PRIVATE KEY"
 </p>
 
