@@ -35,6 +35,7 @@ Reactjs:https://reactjs.org/ <br/>
 Hardhat:https://hardhat.org/
 
 API:https://www.alchemy.com/ <br/>
+領取GOERLI ETH:<br/>
 GOERLI FAUCET:https://goerlifaucet.com/
 
 
