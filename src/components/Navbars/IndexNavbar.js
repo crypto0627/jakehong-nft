@@ -191,7 +191,7 @@ const IndexNavbar = ({ accounts, setAccounts }) => {
               <NavLink
                 as="a"
                 data-placement="bottom"
-                href="mailto:F111110111@nkust.edu.tw"
+                href="https://goerli.etherscan.io/address/0x88d7d7e740f355d959513dc10febb61aae7e75dc"
                 target="_blank"
                 title="View Contract"
               >
