@@ -26,6 +26,10 @@ npx hardhat compile
 npx hardhat run ./scripts/yourdeploy.js --network mainnet
 npx hardhat verify --network mainnet contract_Address
 ```
+view your smart contract on Etherscan!
+
+<br/>
+
 使用框架:<br/>
 Reactjs:https://reactjs.org/ <br/>
 Hardhat:https://hardhat.org/
@@ -33,4 +37,4 @@ Hardhat:https://hardhat.org/
 API:https://www.alchemy.com/ <br/>
 GOERLI FAUCET:https://goerlifaucet.com/
 
-go etherscan goerli testnet search your contract address and you can see contract content on Etherscan!
+
