@@ -116,7 +116,7 @@ const IndexNavbar = ({ accounts, setAccounts }) => {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/index"
+            href="#"
             target="_blank"
             title="Coded by Creative Tim"
           >
